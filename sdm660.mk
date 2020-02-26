@@ -168,6 +168,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
