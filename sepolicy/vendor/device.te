@@ -2,3 +2,4 @@ type blkio_dev, dev_type;
 type fingerprint_device, dev_type;
 type spidev_device, dev_type;
 type latency_device, dev_type;
+typeattribute system_block_device super_block_device_type;
