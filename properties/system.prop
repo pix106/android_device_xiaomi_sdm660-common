@@ -4,9 +4,6 @@ audio.offload.min.duration.secs=30
 persist.vendor.audio.hac.enable=false
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 
-# Bluetooth
-persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
-
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 
