@@ -6,4 +6,3 @@ allow thermal-engine self:capability { chown fowner };
 set_prop(thermal-engine, vendor_thermal_prop);
 r_dir_file(thermal-engine, sysfs_thermal)
 
-dontaudit thermal-engine self:capability dac_override;
