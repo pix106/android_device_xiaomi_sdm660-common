@@ -7,9 +7,10 @@
 
 # A/B fstab.qcom variant
 #<src>                                                              <mnt_point>           <type>  <mnt_flags and options>                                                                         <fs_mgr_flags>
+system                                                              /system               ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
+vendor                                                              /vendor               ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
 /dev/block/platform/soc/c0c4000.sdhci/by-name/logdump               /metadata             ext4    noatime,nosuid,nodev,discard,data=journal,commit=1                                              wait,check,formattable,first_stage_mount,metadata_csum
 /dev/block/zram0                                                    none                  swap    defaults                                                                                        zramsize=75%,zram_backingdev_size=1G
-/dev/block/platform/soc/c0c4000.sdhci/by-name/system                /                     ext4    ro,barrier=1,discard                                                                            wait,slotselect,first_stage_mount,avb=vbmeta
 /dev/block/bootdevice/by-name/userdata                              /data                 f2fs    nodev,nosuid,fsync_mode=nobarrier,lazytime,inlinecrypt,background_gc=off                        latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,checkpoint=fs,quota,formattable,reservedsize=128M,fsverity,readahead_size_kb=128
 /dev/block/bootdevice/by-name/userdata                              /data                 ext4    nodev,nosuid,barrier=1,noauto_da_alloc,discard,lazytime,inlinecrypt                             latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,checkpoint=fs,quota,reservedsize=128M,fsverity,readahead_size_kb=128
 /dev/block/bootdevice/by-name/misc                                  /misc                 emmc    defaults                                                                                        defaults
