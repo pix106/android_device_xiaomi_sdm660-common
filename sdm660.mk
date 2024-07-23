@@ -343,7 +343,6 @@ PRODUCT_PACKAGES += \
     vendor_firmware_mnt_mountpoint
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/partitions/flash_super_dummy.sh:install/bin/flash_super_dummy.sh
