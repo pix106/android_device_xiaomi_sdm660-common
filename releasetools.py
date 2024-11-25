@@ -19,6 +19,7 @@ import common
 import re
 
 def FullOTA_InstallBegin(info):
+  info.script.AppendExtra('assert(getprop("ro.boot.super_partition") == "system" || abort("ERROR: This recovery does not support retrofit dynamic partitions."););')
   input_zip = info.input_zip
   AddImage(info, "RADIO", "super_dummy.img", "/tmp/super_dummy.img");
   info.script.AppendExtra('package_extract_file("install/bin/flash_super_dummy.sh", "/tmp/flash_super_dummy.sh");')
