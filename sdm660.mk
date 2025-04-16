@@ -165,7 +165,8 @@ PRODUCT_COPY_FILES += \
 
 # Fstab
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    fstab.qcom.ramdisk
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
