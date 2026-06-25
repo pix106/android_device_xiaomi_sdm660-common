@@ -122,10 +122,6 @@ PRODUCT_COPY_FILES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
 
-# Configstore (Disabled)
-PRODUCT_PACKAGES += \
-    disable_configstore
-
 # ConsumerIR
 ifeq ($(BOARD_HAVE_IR),true)
 PRODUCT_PACKAGES += \
