@@ -233,6 +233,9 @@ PRODUCT_PACKAGES += \
     init.verity.rc \
     ueventd.qcom.rc
 
+# libion
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_PACKAGES += \
