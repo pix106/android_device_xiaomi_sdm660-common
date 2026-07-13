@@ -73,9 +73,6 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 TARGET_NEEDS_RAW10_BUFFER_FIX := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
-# Fastbootd - it is enabled by default now
-TARGET_DISABLE_FASTBOOTD := true
-
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 
