@@ -118,9 +118,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|9903e0919bb341f545ac7a98267c59230695d7ad
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so;MODULE_SUFFIX=_vendor|23cdd38d2fade0c54e299e7d50d472146957a4eb
 
-# ANT+ - from LA.QSSI.16.0.r1-06700-qssi.0
-system_ext/lib/com.qualcomm.qti.ant@1.0.so|2f9a63fa6301de2b633f213cefa398d4b39fbc03
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so|1c85c92dfd699645a1da0e8a87528fe980373921
+# ANT+ - from LA.QSSI.17.0.r1-06700-qssi.0
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|cfcbff373d7486a768bc27b07bfd359377981e92
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|de4836bd2e4c23a695efe6ff2a2f79e03e8f594c
 
 # ANT+ - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|d81c62439958c309c34bc96bf63232fa3a6481b5
