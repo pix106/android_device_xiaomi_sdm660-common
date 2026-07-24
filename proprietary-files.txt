@@ -86,9 +86,9 @@ vendor/lib64/libaudioparsers.so|506b43e9d5c18e5eeaa18cc734324f0138d7e9cc
 vendor/lib64/libFlacSwDec.so|3b2798cf7ab8a5e5d515a5a2489a7e77ba2ee62a
 vendor/lib64/libqtigef.so|de0024eed15f7ba45968e435971730230a643dc3
 
-# Audio FX modules - from LA.QISI.16.0.r1-01200-qssi.0
+# Audio FX modules - from LA.QSSI.17.0.r1-06700-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
-system_ext/framework/audiosphere.jar|57adb7d614e210cf2097394962805267b51e3739
+system_ext/framework/audiosphere.jar|96d090d9b192665a15622ef45e40d292c04967bc
 
 # Audio FX modules - from google/cheetah/cheetah:15/AP3A.241005.015
 vendor/lib/soundfx/libspatialaudio.so|1b574e25db97b76b712ddffda6da42c3c5c5df6e
