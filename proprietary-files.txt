@@ -710,11 +710,11 @@ vendor/bin/pm-proxy|41df355eb75dfb69b07083a37c3745dd6d084b36
 vendor/bin/pm-service|bf5ca6e5dfd398549bdd563c6e3edea12f4c027a
 vendor/lib64/libperipheral_client.so|31fab3060caeef08bcafb83f01a452bc29029723
 
-# QMI - from LA.QSSI.16.0.r1-06700-qssi.0
+# QMI - from LA.QSSI.17.0.r1-06700-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
-system_ext/lib64/libqmi_cci_system.so|7a363d002de1fd26dfd7f498c38bec93f13b915a
-system_ext/lib64/libqmi_encdec_system.so|2dc6fd9dfbb798e0a0776e2f08b7ec27b10df6aa
+system_ext/lib64/libqmi_cci_system.so|e025c0747585e1d4cdf664f1bf117ada95804134
+system_ext/lib64/libqmi_encdec_system.so|f64d9adf573269f7de97782e5965162bea976ef0
 
 # QMI - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
 vendor/bin/irsc_util|7956c7693d011682628c5d09a5385964872e1931
