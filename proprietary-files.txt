@@ -370,28 +370,28 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so;
 # ConsumerIR (spi) - from jasmine V11.0.28.0.QDIMIXM
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spi.sdm660.so;FIX_SONAME|d1f275a91557dfab52e82906986c5094fe078722|f086cf79cff5624554e3bfb67d44386b94578c4b
 
-# DPM - from LA.QISI.16.0.r1-01200-qssi.0
-system/framework/tcmclient.jar|813088785d732feaf5dd66627b8cbc44f0ae4223
-system_ext/bin/dpmd|7346e232697c3a221d13045a7a4b0e683ef0d4f8
+# DPM - from LA.QSSI.17.0.r1-06700-qssi.0
+system/framework/tcmclient.jar|698a8c8e39b6dfee0e10b31aa0d50c6cc223a586
+system_ext/bin/dpmd|938b8aa7d2c6d1bd37344ea38c35b62c17d15bde
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|e9af21d1ac999fd7c6ed04378e1cfc48734ef1ab
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
-system_ext/framework/com.qti.dpmframework.jar|f4b1c3792b46845adc8e7164bb49040744c820f1
-system_ext/framework/dpmapi.jar|b5dd753158b897c35f7070ea94c09a4372772972
-system_ext/framework/vendor.qti.hardware.dpmaidlservice-V1-java.jar|f1d798bff02c09fa3dd04b28b15eb58ef0bcc0ef
-system_ext/framework/vendor.qti.hardware.dpmservice-V1.0-java.jar|c2bb3c6464e0c4bb55ad3ab4970092288f44dc67
-system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar|7bf95070236281f719c553477a5f822d4e9b3a03
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|e135348d85a191546d7bb88afad51ca19a3181e9
-system_ext/lib64/libdpmctmgr.so|fae9d224f33014407bba074b8379375720d486f9
-system_ext/lib64/libdpmfdmgr.so|a74bf8a3bfcd6a5614cff60c2a1c748ed3faa0bd
-system_ext/lib64/libdpmframework.so|00de5dbf37a040f6e76d292e26781d6c472772fb
-system_ext/lib64/libdpmtcm.so|92c3396f1eea8b9125b67e420cce5651cfaad48d
-system_ext/lib64/vendor.qti.diaghal@1.0.so|7750e909a3a070a3eb098a84f39180156de1ae84
-system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so|791e4f46164fca1d4a5fa0cf60d3312f6353b87e
-system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so|4db7b5066c16d2d3b569075e6f0d0e9edcd48efb
-system_ext/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so|9f91d5522facd06a8d45ad93e68d34384d6361cc
-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|f81d7e033a0ed778fd9abff8be2b82f30ab73dfb
+system_ext/framework/com.qti.dpmframework.jar|f6c04bb8e644fef8f95842b23d5796aaef5f9f83
+system_ext/framework/dpmapi.jar|7193ca8b003c10f750fdedf566df04b8cf77bc89
+system_ext/framework/vendor.qti.hardware.dpmaidlservice-V1-java.jar|8973b24ac552c0283a81dda13bed83f14f285eee
+system_ext/framework/vendor.qti.hardware.dpmservice-V1.0-java.jar|86a3ca98663620c42397bff4467e64c3a53a0b37
+system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar|0dc4d0cb3609ce9c3a79ace1a2ff2fff816dfa84
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a425c899be008b3f5fc861d54c41e53ec12ef25c
+system_ext/lib64/libdpmctmgr.so|835c9214a2cc314e2ec087863a3b64fcc5765d34
+system_ext/lib64/libdpmfdmgr.so|16a45e2cde07c45afc0dfe1f34c49d7d1a33c7a4
+system_ext/lib64/libdpmframework.so|43ea419b23ba453ba3cd7d4056cdf4aa93ca471d
+system_ext/lib64/libdpmtcm.so|868b2321ccafab7e92582f410e33f402e6d0e475
+system_ext/lib64/vendor.qti.diaghal@1.0.so|8c0c3190651aa188732790f2dadcc21662c359ba
+system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so|0e5fb39a141a3cf006eafcdd1a78b26ea45cd9b5
+system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so|d1ce509649c8b1b2424928e2c54f3fcce5159ce1
+system_ext/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so|9b874c872480e0c50104090801945070cac8fb0d
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|5e18b5b5fd9543e368c0fe0b4a5fbf25e18dfe35
 
 # DPM - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
 vendor/bin/dpmQmiMgr|13a5010588993c121614ec5bb1e76e2ae7931b79
