@@ -779,7 +779,6 @@ system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|e4d1
 system_ext/etc/cdma_call_conf.xml|d1ae6bf84ec5b68ea6659d6b0558835af69aa8c0
 system_ext/etc/spn-conf.xml|ac8a0750445f66091e7e77928fc055ff50369f42
 system_ext/framework/qcrilhook.jar|9787a32278ef29754c0b0fe665c6dae883c8e9c2
-system_ext/framework/qti-telephony-common.jar|96b11a8bceca8d612ebf856e2921c30e28fbd0fb
 system_ext/lib64/libembmsmmosal.so|0799fe56d62d958dd49edaa0bfb8a5ceadfc6b83
 system_ext/lib64/libembmsmmparser_lite.so|6c393178e2b8e807058e87b43d0cc8edd6598fa4
 system_ext/lib64/libembmstinyxml.so|e65bced499f14ece8aac51254c9b354828642784
