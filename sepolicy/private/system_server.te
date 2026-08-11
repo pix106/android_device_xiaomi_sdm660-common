@@ -1,7 +1,7 @@
 binder_call(system_server, folio_daemon)
 
-# Allow system_server to set persist_camera_prop
-get_prop(system_server, vendor_persist_camera_prop)
+# Allow system_server to set camera2_extensions_prop
+get_prop(system_server, camera2_extensions_prop)
 
 get_prop(system_server, userspace_reboot_config_prop)
 get_prop(system_server, userspace_reboot_exported_prop)
