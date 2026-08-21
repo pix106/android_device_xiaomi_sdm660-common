@@ -83,9 +83,16 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # LMKD
 ro.lmk.log_stats=false
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
 ro.lmk.psi_partial_stall_ms=200
+ro.lmk.psi_complete_stall_ms=700
+ro.lmk.swap_util_max=90
+ro.lmk.thrashing_limit=60
 ro.lmk.thrashing_limit_decay=50
 ro.lmk.lowmem_min_oom_score=801
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
 
 # Logs
 persist.log.tag.AnalyticsService=S
